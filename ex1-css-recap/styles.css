@@ -43,11 +43,12 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10em;
     background-color:rgba(0, 0, 0, 0.1);
     padding: 5px;
     margin: 15px;
-    height: 800px;
+    height: 100vh;
+    width:100vh;
+    gap: 1em;
         
     
     
@@ -99,11 +100,13 @@ button{
     background-color: sandybrown;
     margin-top: 30px;
     margin-left: 4em;
-    padding: 14px 28px;       
+    padding: 14px 28px;
+    text-decoration: none;
+    margin-bottom: 2em;    
 }
-.grid2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.float {
+    margin: 2em;
+    margin:
         
 }
 img{
