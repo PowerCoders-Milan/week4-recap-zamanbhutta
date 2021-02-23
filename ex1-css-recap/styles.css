@@ -102,11 +102,11 @@ button{
     margin-left: 4em;
     padding: 14px 28px;
     text-decoration: none;
-    margin-bottom: 2em;    
+    margin-bottom: 2em;
+      
 }
 .float {
     margin: 2em;
-    margin:
         
 }
 img{
@@ -120,5 +120,33 @@ img{
 }
 .flex{
     display: flex;
+    flex:25vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1{
+    background-color: chocolate;
+    height: 50px;
+    width: 100px;
+    border-radius: 25vh;
+    text-align: center;
+    
     
 }
+.box2{
+    background-color: coral;
+    height: 50px;
+    width: 100px;
+    border-radius: 25vh;
+    text-align: center;
+}   
+.box3{
+    background-color: crimson;
+    height: 50px;
+    width: 100px;
+    border-radius: 25vh;
+    text-align: center;
+}
+    
